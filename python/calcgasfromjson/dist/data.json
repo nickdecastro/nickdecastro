@@ -1,0 +1,12 @@
+[
+    {
+        "fuel_efficiency": 8.5,
+        "distance": 250,
+        "cost_per_liter": 1.2
+    },
+    {
+        "fuel_efficiency": 7.2,
+        "distance": 120,
+        "cost_per_liter": 1.15
+    }
+]
