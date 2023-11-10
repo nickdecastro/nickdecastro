@@ -1,3 +1,13 @@
+import sys
+
+# Check if the "/?" switch is provided as a command-line argument
+if "/?" in sys.argv:
+    print("Usage: calculategas.exe /?")
+    print("This program calculates the total fuel consumption and cost for a given trip.")
+    print("You will be prompted to enter the car's fuel efficiency (L/100km), the distance traveled (km),")
+    print("and the cost of gas per liter ($/L).")
+    sys.exit()
+
 # Ask the user for the car's fuel efficiency (Liters per 100 kilometers)
 fuel_efficiency = float(input("Enter the car's fuel efficiency (L/100km): "))
 
